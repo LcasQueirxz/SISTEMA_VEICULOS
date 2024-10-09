@@ -1,6 +1,6 @@
 # Projeto Veículo
 
-##📋 Pré-requisitos
+## 📋 Pré-requisitos
 
 Para desenvolver e rodar o projeto, você vai precisar de:
 
