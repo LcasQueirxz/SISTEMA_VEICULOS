@@ -30,5 +30,5 @@ O projeto consiste na criação de uma classe `Produto`, onde serão armazenadas
 
 ## 🖥️ Resultado da Aplicação
 
-![img](https://github.com/LcasQueirxz/SISTEMA_VEICULOS/edit/master/README.md#:~:text=Tela%202024%2D11%2D-,28,-%C3%A0s%2019.37.18.png)
+![img](https://github.com/LcasQueirxz/SISTEMA_VEICULOS/blob/master/img/Captura%20de%20Tela%202024-11-28%20%C3%A0s%2019.37.18.png)
 ![img](https://github.com/LcasQueirxz/SISTEMA_VEICULOS/blob/master/img/Captura%20de%20Tela%202024-11-28%20%C3%A0s%2019.35.30.png)
