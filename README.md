@@ -1,37 +1,34 @@
-# 🚗 **Sistema de Gestão de Veículos** 🛵
+# Gerenciamento de Produtos
 
-Este projeto implementa um sistema para processar dados de veículos de vários tipos. O sistema gerencia informações sobre **automóveis**, **motocicletas**, **caminhões**, **bicicletas** e **skates**, onde cada tipo de veículo possui atributos específicos.
+## 📋 Pré-requisitos
 
-## 🚙 **Tipos de Veículos**:
+Para desenvolver e rodar o projeto, você vai precisar de:
 
-1. **Automóveis**: Modelo, ano de fabricação, montadora, cor, kilometragem (odômetro), quantidade de passageiros, tipo de freio e airbag.
-2. **Motocicletas**: Modelo, ano de fabricação, cilindradas e torque.
-3. **Caminhões**: Modelo, ano de fabricação, quantidade de eixos e peso bruto.
-4. **Bicicletas**: Modelo, marca, cor, material, quantidade de marchas e amortecedor.
-5. **Skates**: Modelo, marca, cor e tipo das rodas.
+1. **IDE Eclipse**: Para compilar e rodar o código em Java.
+2. **JDK**: Versão 11 ou superior do Java Development Kit.
 
-## ⚙️ **Funcionalidades do Sistema**:
+## 🔧 Como instalar o software
 
-- **Encapsulamento e Validação**: Todos os atributos dos veículos são encapsulados e, quando necessário, validados.
-- **Comando de Inserção no Banco de Dados**: Cada classe de veículo gera um comando SQL para inserir os dados em uma tabela de banco de dados correspondente.
-- **Teste das Classes**: Diversos objetos são criados para testar a funcionalidade das classes e seus métodos.
+1. Baixe o Eclipse IDE e instale-o de acordo com seu sistema operacional.
+2. Instale o JDK da Oracle ou do OpenJDK.
+3. Abra o Eclipse, crie um novo projeto Java e insira o código fornecido para o projeto.
 
-## 💻 **Tecnologias Utilizadas**:
+## 📌 Versão
 
-- **Java 17** (ou superior)
-- **JDBC** (Java Database Connectivity)
-- **MySQL** (Banco de Dados Relacional)
+- **Versão 1.0**: Implementação inicial.
 
-## 📦 **Como Executar o Projeto**:
+## 📖 Descrição do Projeto
 
-### Passo 1: Configuração do Banco de Dados
+O projeto consiste na criação de uma classe `Produto`, onde serão armazenadas as informações de um produto como nome e preço. Além disso, foram implementadas as classes `Alimento` e `Vestuario` para gerenciar diferentes tipos de produtos. O programa principal (`Main`) permite ao usuário adicionar novos produtos, listar, atualizar e deletar produtos armazenados.
 
-1. **Criar o Banco de Dados**:
-   Antes de executar o código, certifique-se de criar o banco de dados `sistemasveiculos` no MySQL com a seguinte consulta SQL:
+### Funcionalidades
 
-   ```sql
-   CREATE DATABASE sistemasveiculos;
+- **Adicionar Produto**: Permite ao usuário inserir o nome, preço de custo, preço de venda e outras informações específicas de um novo produto.
+- **Listar Produtos**: Exibe todos os produtos armazenados com seus respectivos detalhes.
+- **Atualizar Produto**: Permite ao usuário atualizar as informações de um produto existente.
+- **Deletar Produto**: Remove um produto do banco de dados com base no seu ID.
 
-Resultado Aplicação 🖥️
-![img](https://github.com/LcasQueirxz/SISTEMA_VEICULOS/blob/master/img/Captura%20de%20Tela%202024-11-28%20%C3%A0s%2019.37.18.png)
-![img](https://github.com/LcasQueirxz/SISTEMA_VEICULOS/blob/master/img/Captura%20de%20Tela%202024-11-28%20%C3%A0s%2019.35.30.png)
+## 🖥️ Resultado da Aplicação
+
+![img]()
+![img]()
